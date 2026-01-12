@@ -1,0 +1,23 @@
+body { 
+    font-family: 'Inter', sans-serif; 
+    background-color: #f8fafc; 
+}
+.stage-card {
+    background-color: white;
+    border-left: 4px solid;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+.active-stage { border-left-color: #0d9488; }
+.completed-stage { border-left-color: #3b82f6; }
+.vaps-badge {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-weight: 600;
+    font-size: 0.75rem;
+    line-height: 1;
+}
+.vaps-A { background-color: #f0f9ff; color: #0d9488; border: 1px solid #0d9488; }
+.vaps-I { background-color: #fffbeb; color: #d97706; border: 1px solid #d97706; }
+.vaps-B { background-color: #fef2f2; color: #dc2626; border: 1px solid #dc2626; }
