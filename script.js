@@ -73,7 +73,7 @@
 
         // --- Global State and Configuration ---
 
-        const API_KEY = "AIzaSyAocuULEXot-FJEMGX-xu5nSf8SW9KhAF4"; // Kept empty as per instructions
+        const API_KEY = ""; // Kept empty as per instructions
         const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${API_KEY}`;
         const policyState = {
             currentStage: 0,
@@ -599,3 +599,4 @@
         window.onload = function() {
             updateUI();
         };
+
