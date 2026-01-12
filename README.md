@@ -2,7 +2,7 @@
 An advanced policy analysis tool that utilizes a **Generate-Critique-Synthesize** Deep Agent pattern to rigorously evaluate policy ideas.
 
 ##  Overview
-This simulator processes initial policy ideas through five distinct stages of the policy cycle. Each stage is governed by a specific dimension—**Ability (A)**, **Integrity (I)**, or **Benevolence (B)**—to ensure the final output is robust, ethical, and feasible[cite: 12, 45].
+This simulator processes initial policy ideas through five distinct stages of the policy cycle. Each stage is governed by a specific dimension—**Ability (A)**, **Integrity (I)**, or **Benevolence (B)**—to ensure the final output is robust, ethical, and feasible.
 
 ##  The Deep Agent Architecture
 Instead of a single-step generation, every stage employs a three-phase self-correction loop:
