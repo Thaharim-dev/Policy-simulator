@@ -1,0 +1,25 @@
+# Secrets & API Keys
+# If you move your key to a separate file, add that file name here
+.env
+api_keys.json
+config.js
+
+# Firebase local files
+.firebase/
+firebase-debug.log*
+.firebaserc
+
+# Node.js (if you ever use npm/node)
+node_modules/
+npm-debug.log*
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
